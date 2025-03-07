@@ -10,4 +10,6 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'HelloWorldApp';
   message: string="Hello from BridgeLabz";
+  //add logo
+  bridgeLabzLogo: string="../bridgelabzlogo.jpeg";
 }
