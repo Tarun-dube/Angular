@@ -12,4 +12,9 @@ export class AppComponent {
   message: string="Hello from BridgeLabz";
   //add logo
   bridgeLabzLogo: string="../bridgelabzlogo.jpeg";
+
+  // //  Function to open BridgeLabz website
+  openBridgeLabz(): void {
+    window.open("https://www.bridgelabz.com", "_blank");
+  }
 }
